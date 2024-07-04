@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Mada&family=Montserrat&family=Roboto&family=Rubik&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    background: #360369;
+    color: white;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 100px;
+    font-weight: 700;
+    margin-top: 18% !important;
+    margin-bottom: 20px;
+}
+
+.btn{
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+    width:fit-content ;
+    padding: 8px 200px;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 300;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 650px){
+    .btn{
+        font-size: 1rem;
+        padding: 8px 100px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 360px){
+    .btn{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 230px){
+    .btn{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+}
