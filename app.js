@@ -7,6 +7,10 @@ const detailContainer = document.getElementById("bottom");
 const map = document.getElementById("maps");
 
     
+getLocation(); // calling getLocation function to get lat and long automatically
+
+
+
 
 // finding latitude and longitude automatically from your device location
 function getLocation(){
@@ -44,8 +48,8 @@ function iframeUpdate(latitude,longitude)
     ele.className = "map";
 
     ele.src = `https://maps.google.com/maps?q=${latitude}, ${longitude}&z=15&output=embed`;
-    ele.width = 700;
-    ele.height = 500;
+    // ele.width = 700;
+    // ele.height = 700;
     ele.style.border = 0;
 
     map.appendChild(ele);
@@ -136,8 +140,3 @@ function toCelcius(temp)
         // console.log(temp-273.15);
         return Math.round(temp - 273.15);
 }
-
-
-
-
- getLocation();

@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Mada&family=Montserrat&family=Roboto&family=Rubik&display=swap');
+ 
+/* import from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     padding: 0px;
@@ -6,12 +8,14 @@
     background: #360369;
     color: white;
 }
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 h1{
     color: #FFF;
     text-align: center;
